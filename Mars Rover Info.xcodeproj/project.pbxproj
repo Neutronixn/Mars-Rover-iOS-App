@@ -11,6 +11,8 @@
 		A277DD412CB857AC0035017B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277DD402CB857AC0035017B /* ContentView.swift */; };
 		A277DD432CB857B00035017B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A277DD422CB857B00035017B /* Assets.xcassets */; };
 		A277DD462CB857B00035017B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A277DD452CB857B00035017B /* Preview Assets.xcassets */; };
+		A277DD4D2CB858390035017B /* RoverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277DD4C2CB858390035017B /* RoverManager.swift */; };
+		A277DD502CB863880035017B /* SafeAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277DD4F2CB863880035017B /* SafeAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		A277DD402CB857AC0035017B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A277DD422CB857B00035017B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A277DD452CB857B00035017B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A277DD4C2CB858390035017B /* RoverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverManager.swift; sourceTree = "<group>"; };
+		A277DD4E2CB861010035017B /* Mars-Rover-Info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mars-Rover-Info-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A277DD4F2CB863880035017B /* SafeAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		A277DD3D2CB857AC0035017B /* Mars Rover Info */ = {
 			isa = PBXGroup;
 			children = (
+				A277DD4E2CB861010035017B /* Mars-Rover-Info-Info.plist */,
 				A277DD3E2CB857AC0035017B /* Mars_Rover_InfoApp.swift */,
 				A277DD402CB857AC0035017B /* ContentView.swift */,
 				A277DD422CB857B00035017B /* Assets.xcassets */,
 				A277DD442CB857B00035017B /* Preview Content */,
+				A277DD4C2CB858390035017B /* RoverManager.swift */,
+				A277DD4F2CB863880035017B /* SafeAsyncImage.swift */,
 			);
 			path = "Mars Rover Info";
 			sourceTree = "<group>";
@@ -138,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A277DD412CB857AC0035017B /* ContentView.swift in Sources */,
+				A277DD4D2CB858390035017B /* RoverManager.swift in Sources */,
 				A277DD3F2CB857AC0035017B /* Mars_Rover_InfoApp.swift in Sources */,
+				A277DD502CB863880035017B /* SafeAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,7 @@
 				DEVELOPMENT_TEAM = B55X378VNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Rover-Info-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +315,7 @@
 				DEVELOPMENT_TEAM = B55X378VNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Rover-Info-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
